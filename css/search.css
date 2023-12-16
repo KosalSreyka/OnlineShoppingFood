@@ -1,0 +1,18 @@
+body{
+    width: 90%;
+    background: linear-gradient(to right,hotpink,#324681);
+    background-image: url('../img/f13.jpg');
+    background-position:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+    height: 50px;
+    font-size: 30px;
+    border-bottom: 5px solid rgb(170, 117, 249);
+
+}

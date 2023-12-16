@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Online Shopping</title>
+  <link rel="stylesheet" href="./css/1.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="js1.js">
+    </script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo-removebg-preview.png" width="40px" height="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html"><i class="bi bi-house-door"></i>
+              &ensp;Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html_file/fruit.html">Fruit</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Food
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./html_file/dessert.html">Soup</a></li>
+              <li><a class="dropdown-item" href="./html_file/dessert.html">Dessert</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Drink
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./html_file/tea.html">Tea</a></li>
+              <li><a class="dropdown-item" href="./html_file/coffee.html">Coffee</a></li>
+              <li><a class="dropdown-item" href="./html_file/drink.html">Juice</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+
+        <img src="img/Copy_of_Fruit_in_Focus___Fuji_Apple_2_x500.webp" class="d-block w-100 " height="600" alt="...">
+      </div>
+      <div class="carousel-item ">
+
+        <img src="img/healthy-food-share-plate-1024x600-wallpaper-11722.jpg" class="d-block w-100 " height="600"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner1.png" class="d-block w-100" height="600" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/mss_renderimg.jpg" height="600" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid ">
+    <div class="row mt-5">
+      <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-12 item-box">
+        <div class="box">
+          <img src="./img/cc.jpg" id="img2" onmouseover="changeImg2('./img/1.avif')" onmouseleave="changeImg2('./img/cc.jpg')" alt="">
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-12 item-box">
+        <div class="box">
+          <img src="./img/food4.webp"  id="img3" onmouseover="changeImg3('./img/food1-.jpg')" onmouseleave="changeImg3('./img/food4.webp')"  alt="">
+        </div>
+      </div>
+      <div class="col-xl-4 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item-box">
+        <div class="box">
+          <img src="./img/coffee8.png" id="img1" onmouseover="changeImg1('./img/coffee.png')" onmouseleave="changeImg1('./img/coffee8.png')" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" container feature">
+    <img src="./img/apple.jpg" class="rounded" id="img" onmouseover="changeImg('./img/red-delicious-apples.webp')" onmouseleave="changeImg('./img/apple.jpg')" alt="">
+    <p > <strong>The apple</strong> is one of the pome (fleshy) fruits. Apples at harvest vary widely in size, shape, colour, and acidity,
+      but most are fairly round and some shade of red or yellow. The thousands of varieties fall into three broad
+      classes: cider, cooking, and dessert varieties.</p>
+  </div>
+   <h2 class="text-center">More Features</h2>
+   <div class="container ">
+    <div class="row mt-5">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+            <div class="box1">
+                <div class="box-img">
+                  <img src="../img/Ingredients.jpg" alt="">
+              </div>
+              <div class="box-text"  style="background-color: #e3f2fd;">
+                  <p>Orange</p>
+                  <span>2.50$</span>
+                  <span class="dis">4.00$</span>
+                  <div class="buy">
+                      <a href="">
+                          <p>Order Now</p>
+                      </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+            <div class="box1">
+                <div class="box-img" >
+                    <img src="../img/chicken.jpg" alt="">
+                </div>
+                <div class="box-text" style="background-color: #e3f2fd;">
+                    <p>Soup</p>
+                    <span>5.50$</span>
+                    <span class="dis">6.00$</span>
+                    <div class="buy">
+                        <a href="">
+                            <p>Order Now</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+            <div class="box1">
+                <div class="box-img">
+                  <img src="../img/d5.jpg" alt="">
+              </div>
+              <div class="box-text"  style="background-color: #e3f2fd;">
+                  <p>Donute</p>
+                  <span>2.50$</span>
+                  <span class="dis">4.00$</span>
+                  <div class="buy">
+                      <a href="">
+                          <p>Order Now</p>
+                      </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+            <div class="box1">
+                <div class="box-img">
+                    <img src="../img/Mexican-Seafood-Soup-Recipe.jpg" alt="">
+
+                </div>
+                <div class="box-text" style="background-color: #e3f2fd;">
+                    <p>Fry</p>
+                    <span>4.50$</span>
+                    <span class="dis">5.00$</span>
+                    <div class="buy">
+                        <a href="">
+                            <p>Order Now</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-3">
+  <div class="row mt-3">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+          <div class="box1">
+              <div class="box-img">
+                  <img src="../img/KDNZ-Juice-Orange-Hero_700x_c2d1df58-a7d0-48c1-a56e-0ccdf7e41a8e.webp" alt="">
+              </div>
+              <div class="box-text"  style="background-color: #e3f2fd;">
+                  <p>Orange Juice</p>
+                  <span>2.50$</span>
+                  <span class="dis">4.00$</span>
+                  <div class="buy">
+                      <a href="">
+                          <p>Order Now</p>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+          <div class="box1">
+            <div class="box-img">
+              <img src="../img/dragonfruit-lemonade-recipe.jpg" alt="">
+
+          </div>
+          <div class="box-text" style="background-color: #e3f2fd;">
+              <p>Dragon Juice</p>
+              <span>2.50$</span>
+              <span class="dis">4.00$</span>
+              <div class="buy">
+                  <a href="">
+                      <p>Order Now</p>
+                  </a>
+              </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+          <div class="box1">
+            <div class="box-img">
+              <img src="../img/tea3.webp" alt="">
+          </div>
+          <div class="box-text"  style="background-color: #e3f2fd;">
+              <p>Tea</p>
+              <span>2.50$</span>
+              <span class="dis">4.00$</span>
+              <div class="buy">
+                  <a href="">
+                      <p>Order Now</p>
+                  </a>
+              </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 item-box1">
+          <div class="box1">
+            <div class="box-img">
+              <img src="../img/coffee5.avif" alt="">
+
+          </div>
+          <div class="box-text"  style="background-color: #e3f2fd;">
+              <p>Coffee</p>
+              <span>2.50$</span>
+              <span class="dis">4.00$</span>
+              <div class="buy">
+                  <a href="">
+                      <p>Order Now</p>
+                  </a>
+              </div>
+          </div>
+          </div>
+      </div>
+  </div>
+</div>
+  <div class="container-fluid footer mt-5">
+    <div class="pic">
+      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-telegram"></i></a>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-xl-4 box-txt">
+          <div class="text">
+            <h2>Category</h2>
+            <p>Fruit</p>
+            <p>Food</p>
+            <p>Drink</p>
+
+          </div>
+        </div>
+        <div class="col-xl-4 box-txt">
+          <div class="text">
+            <h2>About us</h2>
+            <p>Hello everyone welcome to my online Shopping .I hope , it easy for you to find a food by online .Enjoy your days .Thank You !
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 box-txt mx-auto">
+          <div class="text mx-auto">
+            <h3 class="ft text-center">Contact us</h3>
+
+            <div class="ft">
+              <a href="www.facebook.com"> <img src="../img/fb.png" alt="" width="40px" height="40px"></a>
+              <a href=""><img src="../img/phone.jpg" alt="" width="50px" height="50px"></a>
+              <a href="www.instagram.com"><img src="../img/ig.jfif" alt="" width="40px" height="40px"></a>
+              <a href="www.telegram.com"><img src="../img/telegram.png" alt="" width="40px" height="40px"></a>
+              <a href=""><img src="../img/tiktok.png" alt="" width="40px" height="40px"></a>
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
